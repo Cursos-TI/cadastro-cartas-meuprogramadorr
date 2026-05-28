@@ -50,7 +50,7 @@ printf("TURISMOS:%dPONTOS TURISTICOS\n", TURISMOS);
     char CIDADE1[20]="BeloHorizonte";
     int POPULACAO1=2434975;
     float AREA1=331.35;
-    float PIB1=130.2;
+    float PIB1=1302;
     int TURISMOS1=17;
      
     printf("\n");
@@ -73,7 +73,7 @@ printf("TURISMOS:%dPONTOS TURISTICOS\n", TURISMOS);
     scanf(" %f:", &AREA1);
 
     printf("PIB EM MILHOES1:");
-    scanf(" %.2f:", &PIB1);
+    scanf(" %f:", &PIB1);
 
     printf("NUMERO DE PONTOS TURISCOS1:");
     scanf(" %d:", &TURISMOS1);
