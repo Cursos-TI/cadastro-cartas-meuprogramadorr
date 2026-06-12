@@ -1,97 +1,88 @@
 #include <stdio.h>
 
-int main() {
-  
-char ESTADO[10]= "MG";
-char CODIGO[10]= "M01";
-char CIDADE[20]= "TURMALINA";
-int POPULACAO= 20000;
-float AREA= 1153.11;
-float PIB= 44206.07;
-int TURISMOS= 5;
+int main(){
+    //criacao da primeira carta
+    //declaracao de variaveis
+    char ESTADO[10]= "MG";
+    char CODIGO[10]= "MG1";
+    char CIDADE[15]= "TURMALINA";
+    int POPULACAO= 20769;
+    float AREA= 115311.0f;
+    float PIB= 486.9f;//MILHOES
+    int TURISTICOS= 5;
+    float DENSIDADE;
+    float PERCAPITA;
+    DENSIDADE= (float)POPULACAO / AREA;
+    PERCAPITA= (PIB * 1000000.0f)/ POPULACAO;
 
-printf("--CARTA 01--\n");
+    //titulo da carta
+    printf("***CARTA 01***");
 
-printf("ESTADO:");
-scanf("%s", ESTADO);
+    //entrada e saida dos dados
+    printf("DIGITE O NOME DO ESTADO:\n");
+    scanf("%s", ESTADO);
 
-printf("CODIGO DA CARTA:");
-scanf("%s", CODIGO);
+    printf("DIGITE O NOME DA SUA CIDADE:\n");
+    scanf("%s", CIDADE);
 
-printf("NOME DA CIDADE:");
-scanf("%s", CIDADE);
+    printf("DIGITE O CODIGO:\n");
+    scanf("%s", CODIGO);
 
-printf("POPULACAO:");
-scanf("%d", &POPULACAO);
+    printf("PONTOS TURISTICOS:\n");
+    scanf("%d", TURISTICOS);
 
-printf("AREA EM KM²:");
-scanf("%f", &AREA);
+    printf("DIGITE O NUMERO DA POPULACAO:\n");
+    scanf("%d", POPULACAO);
 
-printf("PIB EM MILHOES:");
-scanf("%f", &PIB);
+    printf("DIGITE O PIB EM MILHOES:\n");
+    scanf("%.2f", PIB);
 
-printf("NUMERO DE PONTOS TURISTICOS:");
-scanf("%d", &TURISMOS);
+    printf("DIGITE AREA EM KM2:\n");
+    scanf("%.2F", AREA);
 
-printf("\n --- CARTA 01 ---\n");
-printf("ESTADO:%s\n", ESTADO);
-printf("CODIGO:%s\n", CODIGO);
-printf("CIDADE:%s\n", CIDADE);
-printf("POPULACAO:%d\n", POPULACAO);
-printf("AREA:%.2f KM2\n", AREA);
-printf("PIB:%.2fREAIS\n", PIB);
-printf("TURISMOS:%dPONTOS TURISTICOS\n", TURISMOS);
+}
+   
+int main(){
 
-
-
-     
-    char ESTADO2[10]="MG";
-    char CODIGO2[15]="M02";
-    char CIDADE2[20]="BeloHorizonte";
-    int POPULACAO2=2434975;
-    float AREA2=331.35;
-    float PIB2=1302;
-    int TURISMOS2=17;
-     
-    printf("\n");
-
-    printf("---CARTA 02---\n");
-
-    printf("ESTADO2:");
-    scanf(" %s", ESTADO2);
-
-    printf("CODIGO2:");
-    scanf(" %s", CODIGO2);
-
-    printf("CIDADE2:");
-    scanf(" %s", CIDADE2);
-
-    printf("POPULACAO2:");
-    scanf(" %d", &POPULACAO2);
-
-    printf("AREA EM KM2:");
-    scanf(" %f", &AREA2);
-
-    printf("PIB EM MILHOES:");
-    scanf(" %f", &PIB2);
-
-    printf("NUMERO DE PONTOS TURISTICOS:");
-    scanf(" %d", &TURISMOS2);
-
-    printf("\n---CARTA 02---\n");
-    printf("ESTADO: %s\n", ESTADO2);
-    printf("CODIGO: %s\n", CODIGO2);
-    printf("CIDADE: %s\n", CIDADE2);
-    printf("POPULACAO: %d\n", POPULACAO2);
-    printf("AREA EM KM2: %.2f KM2\n", AREA2);
-    printf("PIB EM MILHOES: %.2fREAIS\n", PIB2 );
-    printf("PONTOS TURISTICOS: %d\n", TURISMOS2);
+    //carta numero 2
+    //declaracao das variaveis da carta 2
+    char ESTADO2[10]= "SP";
+    char CODIGO2[10]= "SP02";
+    char CIDADE2[15]= "GUARULHOS";
+    int POPULACAO2= 1291771;
+    float AREA2= 3188.4f;
+    float PIB2= 97.6f;//bilhoes
+    int TURISTICOS2= 15;
+    float DENSIDADE2;
+    float PERCAPITA2;
+    DENSIDADE2= (float)POPULACAO2 / AREA2;
+    PERCAPITA2= (PIB2 * 1000000.0f) / (float)POPULACAO2;
 
 
-    return 0;
+    //titulo da carta 2
+    printf("***CARTA 02***");
 
+    //entrada e saida de dados
+    printf("DIGITE O NOME DO ESTADO:\n");
+    scanf("%s", ESTADO2);
 
-    
+    printf("DIGITE O NOME DA SUA CIDADE:\n");
+    scanf("%s", CIDADE2);
+
+    printf("DIGITE O CODIGO:\n");
+    scanf("%s", CODIGO2);
+
+    printf("PONTOS TURISTICOS:\n");
+    scanf("%d", TURISTICOS2);
+
+    printf("DIGITE O NUMERO DA POPULACAO:\n");
+    scanf("%d", POPULACAO2);
+
+    printf("DIGITE O PIB EM MILHOES:\n");
+    scanf("%.2f", PIB2);
+
+    printf("DIGITE AREA EM KM2:\n");
+    scanf("%.2F", AREA2);
 
 
 
@@ -99,48 +90,3 @@ printf("TURISMOS:%dPONTOS TURISTICOS\n", TURISMOS);
 
 
 }
-
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
