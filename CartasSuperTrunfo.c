@@ -15,6 +15,7 @@ int main(){
     DENSIDADE= (float)POPULACAO / AREA;
     PERCAPITA= (PIB * 1000000.0f)/ POPULACAO;
 
+    
     //titulo da carta
     printf("\n***CARTA 01***\n");
 
