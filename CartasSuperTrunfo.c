@@ -6,9 +6,9 @@ int main(){
     char ESTADO[10]= "MG";
     char CODIGO[10]= "MG01";
     char CIDADE[15]= "TURMALINA";
-    int POPULACAO= 20769;
-    float AREA= 11531.1f;
-    float PIB= 486.9f;//MILHOES
+    int POPULACAO= 20000;
+    float AREA= 1153.111f;
+    float PIB= 443.706f;//MILHOES
     int TURISTICOS= 5;
     float DENSIDADE;
     float PERCAPITA;
