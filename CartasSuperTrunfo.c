@@ -15,7 +15,7 @@ int main(){
     DENSIDADE= (float)POPULACAO / AREA;
     PERCAPITA= (PIB * 1000000.0f)/ POPULACAO;
 
-    
+
     //titulo da carta
     printf("\n***CARTA 01***\n");
 
@@ -40,6 +40,8 @@ int main(){
 
     printf("DIGITE O NUMERO DE PONTOS TURISTICOS:\n");
     scanf("%d", &TURISTICOS);
+    
+    printf("\n***CARTA 01***\n");
 
     printf("\nESTADO: %s\n", ESTADO);
     printf("CODIGO: %s\n", CODIGO);
@@ -92,6 +94,8 @@ int main(){
 
     printf("DIGITE O NUMERO DE PONTOS TURISTICOS:\n");
     scanf("%d", &TURISTICOS2);
+
+    printf("\n***CARTA 02***\n");
 
     
     printf("\nESTADO: %s\n", ESTADO2);
